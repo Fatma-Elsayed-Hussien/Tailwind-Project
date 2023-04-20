@@ -41,7 +41,7 @@ export default function Footer() {
       <div>
         <h4 className="capitalize text-white font-bold text-2xl mb-2">Newsletter</h4>
         <p className="text-[#e8f5e9] font-medium mb-4 tracking-wide">Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-        <div className="form-control w-80">
+        <div className="form-control w-[16rem] xl:w-80 lg:w-[16rem] ">
           {/* <label className="label">
             <span className="label-text">Enter your email address</span>
           </label> */}
@@ -49,9 +49,9 @@ export default function Footer() {
             <input
               type="text"
               placeholder="username@site.com"
-              className="input input-bordered w-full pr-16"
+              className="input input-bordered w-full pr-16 text-xs"
             />
-            <button className="bg-[#348E38] text-[#e8f5e9] h-full px-6 transition-all duration-500 hover:bg-[#529f56] hover:text-[#000] absolute top-0 right-0 rounded-l-none rounded-r-md text-base font-medium">
+            <button className="bg-[#348E38] text-[#e8f5e9] h-full px-6 transition-all duration-500 hover:bg-[#529f56] hover:text-[#000] absolute top-0 right-0 rounded-l-none rounded-r-md text-sm font-medium">
               SignUp
             </button>
           </div>
