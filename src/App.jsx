@@ -4,6 +4,7 @@ import Projects from "./Components/ProjectsSection/Projects";
 import Services from "./Components/ServicesSection/Services";
 import Team from "./Components/TeamSection/Team";
 import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Projects />
         <Team />
       </div>
+      <Footer />
     </div>
   );
 }
